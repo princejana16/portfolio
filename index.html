@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World of Prince</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css" integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css" integrity="sha512-9YHSK59/rjvhtDcY/b+4rdnl0V4LPDWdkKceBl8ZLF5TB6745ml1AfluEU6dFWqwDw9lPvnauxFgpKvJqp7jiQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .navbar {
+            background-color: black;
+            color: white;
+            height: 40px;
+            display: flex;
+            text-align: center;
+        }
+        .navbar div {
+            font-size: 1.2rem;
+            margin: 10px 30px;
+        }
+        .navbar div:hover {
+            color: chocolate;
+        }
+        .navbar input {
+            margin-left: 740px;
+            border-radius: 20px;
+            height: 30px;
+            align-items: center;
+            margin-top: 4px;
+        }
+        ::placeholder {
+            text-align: center;
+            color:black;    
+        }
+        img {
+            background-repeat: no-repeat;
+            height: 100%;
+            width: 100%;
+            background-size: cover;
+        }
+        .profile {
+            height: 240px;
+            width: 240px;
+            background-repeat: no-repeat;
+            clip-path: circle();
+            margin-top: 30px;
+            margin-left: 20px;
+        }
+        body {
+            background-image: url("background image.webp");
+        }
+        .name {
+            color: antiquewhite;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 5rem;
+            margin-left: 20px;
+        }
+        .intro {
+            font-size: 3rem;
+        }
+        .object {
+            display: flex;
+        }
+        .writing {
+            width: 550px;
+            position: absolute;
+            right: 0;
+            color: wheat;
+            font-size: 1.5rem;
+            margin-right: 70px;
+            margin-top: 40px;
+            
+        }
+        .engineering-note {
+            font-size: 2rem;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-left: 20px;
+            color: orangered;
+            margin-top: 30px;
+        }
+        .clg {
+            font-size: 1.4rem;
+            color: antiquewhite;
+        }
+        .btn {
+            background-color: rgb(142, 54, 69);
+            border: none;
+            width: 150px;
+            height: 40px;
+            margin-left: 20px;
+            font-size: 1.3rem;
+            border-radius: 5%;
+        }
+        .btn:hover {
+            background-color: aliceblue;
+        }
+        .media {
+            color: white;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            margin-right: 30px;
+            margin-left: 30px;
+        }
+        .media a {
+            font-size: 2rem;
+            background-color: transparent;
+            margin-top: 26px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 30px;
+        }
+        .media i {
+            color: black;
+        }
+        .media i:hover {
+            color: orangered;
+            transform: scale(1.6);
+        }
+        footer {
+            background-color: blanchedalmond;
+            margin-top: 50px;
+            height: 120px;
+        } 
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div>Home</div>
+        <div>About</div>
+        <div>Skills</div>
+        <div>Experience</div>
+        <div>Contact</div>
+        <input type="text" placeholder="Search">
+    </div>
+    <div class="object">
+    <div class="profile">
+        <img src="Profile photo.jpg" alt="">
+    </div>
+    <div class="writing">Seeking a highly responsible and challenging career position 
+        utilizing exceptional interpersonal, technical, analytical, 
+        organizational. And problem solving skills gained through my 
+        education and work experience which would lead to 
+        advancement opportunities within a progressive organization.</div>
+    </div>
+    <div class="name">
+        <div>Hi!</div>
+        <div class="intro">It's <strong>Prince Jana</strong></div>
+    </div>
+    <div class="engineering-note">
+        <p>Electrical Engineering</p>
+        <p class="clg">Coochbehar Government Engineering College (2020-25)</p>
+    </div>
+    <br>
+    <button class="btn">
+        Know more
+    </button>
+    <footer>
+        <div class="media">
+            <a href="https://www.facebook.com/pranati.jana.520"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/princejana.16/"><i  class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/prince-jana-a17450222/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com/PrinceJana8?t=wr3NgMFzbGQUxpJQgwD-5g&s=09"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <div style="margin-left: 20px;">
+            Copyright @ 2023 | Prince Jana . Terms & Conditions.
+        </div>
+        
+    </footer>
+</body>
+</html>
